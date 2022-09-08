@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/textstyle"
+        android:text="Withdraw History" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+		
+		<TextView
+		style="@style/smalltextstyle"
+		android:layout_weight="1"
+		android:text="Phone Number and Method" />
+		<TextView
+		style="@style/smalltextstyle"
+		android:layout_weight="1"
+		android:text="Phone Number and Method and Date " />
+		
+		
+		<TextView
+		style="@style/smalltextstyle"
+		android:layout_weight="1"
+		android:text="Amount And status " />
+		
+		
+		
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/withdraw_history_rcycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

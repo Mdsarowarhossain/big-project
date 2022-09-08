@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+		
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <TextView
+            android:id="@+id/withdraw_id"
+            style="@style/smalltextstyle"
+            android:layout_weight="1"
+            android:text="Payment id and Date" />
+
+        <TextView
+            android:id="@+id/withdraw__Date_number_method"
+            style="@style/smalltextstyle"
+            android:layout_weight="1"
+            android:text="Number and payment method" />
+
+        <TextView
+            android:id="@+id/withdraw_Amount_status"
+            style="@style/smalltextstyle"
+            android:layout_weight="1"
+            android:text="Amount and status" />
+    </LinearLayout>
+   
+
+</LinearLayout>

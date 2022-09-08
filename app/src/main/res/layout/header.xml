@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shapBanner" >
+
+        <ImageView
+			android:id="@+id/dash_notificatiom"
+			android:tint="@color/white"
+            android:layout_width="27dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/notification" />
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appName"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="6dp"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Refer Id"
+                android:textColor="@color/app_main_color"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/dash_rfrid_inhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="......"
+                android:textColor="@color/app_main_color"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="6dp"
+            android:background="@drawable/dashinfo_shap"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true" >
+
+                <TextView
+                    android:id="@+id/dash_point_in_header"
+                    android:layout_width="70dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/roundshap"
+                    android:gravity="center"
+                    android:text="...."
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="3dp"
+                    android:orientation="vertical"
+                    android:padding="3dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="4dp" >
+
+                        <TextView
+                            android:id="@+id/dash_name_in_header"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="......."
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" >
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:orientation="horizontal"
+                        android:padding="3dp" >
+
+                        <TextView
+                            android:id="@+id/dash_phone_number_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="3dp"
+                            android:text="......"
+                            android:textColor="#000000"
+                            android:textSize="15sp"
+                            android:textStyle="bold" >
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

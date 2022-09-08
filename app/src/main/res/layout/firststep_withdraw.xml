@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/shapBanner"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Account Balance "
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/withdraw_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:text="0.00"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="25dp"
+        android:minWidth="50dp"
+        android:orientation="vertical" >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/withdraw_pointt_layour"
+            style="@style/inputfieldlayout"
+            android:hint=" Total Point" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/withdraw_pointt_edittext"
+                style="@style/inputfield"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/withdraw_phone_layour"
+            style="@style/inputfieldlayout"
+            android:hint="Enter Your Phone Number" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/withdraw_phone_edittext"
+                style="@style/inputfield"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Select Payment Method"
+            android:textColor="@color/app_main_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/withdraw_errortext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text=""
+            android:textColor="@color/red"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/withdraw_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3" >
+
+                <RadioButton
+                    android:id="@+id/recharge_radio_btj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mobile Recharge"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/bkash_radio_btj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bkash"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/nagad_radio_btj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Nagad"
+                    android:textColor="@color/black" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/withdraw_balance_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:background="@drawable/btnbg"
+            android:backgroundTint="@color/app_main_color"
+            android:text="Continue Withdraw "
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

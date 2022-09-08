@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">workweb</string>
+    <string name="Domain">https://vcaresu.com/</string>
+    <string name="key">1234</string>
+    <string name="app_download">Hello! I am inviting you to download the WebPay App. Download by following this link: https://tmswp.com and haw to work https://youtu.be/aPOibYMICuA use 5827356 as refer code.</string>
+    <string name="task_notice">কাজের ভিডিও দেখে সঠীক ভাবে task  করুন </string>
+    <string name="invalid_notice">সময় শেষ হওয়ার আগে app এ ফেরত আসছেন কেনো। এরকম করবেন না আর।  </string>
+    <string name="version">1</string>
+
+</resources>

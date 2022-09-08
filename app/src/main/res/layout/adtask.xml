@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+	 
+
+    <TextView
+        android:id="@+id/ad_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:text="কাজের ভিডিও দেখে নিয়ম মেনে কাজ করুন "
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/ad_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="9dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btnbg"
+        android:backgroundTint="@color/app_main_color"
+        android:text="Next"
+        android:textColor="@color/white" />
+
+</LinearLayout>

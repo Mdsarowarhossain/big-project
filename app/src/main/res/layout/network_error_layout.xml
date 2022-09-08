@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <android.widget.ImageView
+        android:id="@+id/neterroricon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/network_error"
+        android:tint="@color/app_main_color" />
+
+    <TextView
+        android:id="@+id/neterrormessagw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="No internet Connection"
+        android:textColor="@color/app_main_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <android.widget.ImageView
+		android:id="@+id/neterror_cancel"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/reload"
+        android:tint="@color/app_main_color" />
+
+</LinearLayout>

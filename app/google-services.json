@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "206762886825",
+    "project_id": "myapp-c8771",
+    "storage_bucket": "myapp-c8771.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206762886825:android:8b66b927d25ea49a3c0bb8",
+        "android_client_info": {
+          "package_name": "com.shuvo.workweb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206762886825-70uhbl625mc90bdotoveebrqiuanoqvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVuNof88FJK3hyA_pqYnUYusUQ7PjCoVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206762886825-70uhbl625mc90bdotoveebrqiuanoqvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
